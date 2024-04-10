@@ -150,7 +150,7 @@
     gap: 10px;
 }
 .project{
-    background-color: #e4e0e0;
+    background-color:  #ffffffa4;
     height: 170px;
     border-radius: 5px;
     padding: 12px;
@@ -164,7 +164,7 @@
     display: grid;
     grid-template-rows: 1fr 6fr;;
     justify-items: center;
-    background-color: #d4d1d1;
+    background-color: #ffffffa4;
     border-radius: 10px;
     margin: 12px;
 }
@@ -182,6 +182,44 @@
 }
 .announce p{
     font-size: 0.6rem;
+} 
+.trending img{
+    height: 2.4rem;
+    border-radius: 20px;
+    margin-right: 6px;
 }
+.account{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr;
+} 
+.account img{
+    grid-row: 1/3;
+    align-self: center;
+    justify-self: center;
 
+}
+.account .username{
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: rgb(67, 66, 66);
+}
+.account .name{
+    font-size: 0.8rem;
+    color: rgb(95, 95, 95);
+}
+.trending{
+    display: grid;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 12px;
+    background-color: #ffffffa4;
+}
+.trending h4{
+    margin-top: 30px;
+}
+.trending-acc{
+    display: grid;
+    gap: 14px;
+}
 
